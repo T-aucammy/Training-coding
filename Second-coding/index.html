@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="top.js"></script>
+</head>
+<body>
+    <main role=main>
+        <div class="estimate">
+            <div class="estimate__wrapper">
+                <div class="estimate__content">
+                    <div class="radioBox estimate__radioBox">
+                        <label class="radioBox__label" for="radio"><input id="radio" class="radioBox__label" type="radio" name="radio" value="あり">あり<span>必須</span></label>
+                        <label class="radioBox__label" for="radio"><input id="radio" class="radioBox__label" type="radio" name="radio" value="なし">なし<span>必須</span></label>
+                    </div>
+                    <div class="pageBox estimate__pageBox">
+                        <p class="pageBox__ttl">ページ数</p>
+                        <select class="pageBox__select">
+                            <option value="none" selected>-</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <p class="estimate__result"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
